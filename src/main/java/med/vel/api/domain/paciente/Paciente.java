@@ -1,11 +1,11 @@
-package med.vel.api.paciente;
+package med.vel.api.domain.paciente;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.vel.api.endereco.Endereco;
+import med.vel.api.domain.endereco.Endereco;
 
 @Getter
 @EqualsAndHashCode(of = "id")

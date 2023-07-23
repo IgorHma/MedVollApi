@@ -1,4 +1,4 @@
-package med.vel.api.endereco;
+package med.vel.api.domain.endereco;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

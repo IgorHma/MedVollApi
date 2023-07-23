@@ -1,4 +1,4 @@
-package med.vel.api.medico;
+package med.vel.api.domain.medico;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

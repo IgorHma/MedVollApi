@@ -1,4 +1,4 @@
-package med.vel.api.paciente;
+package med.vel.api.domain.paciente;
 
 public record DadosListagemPaciente(String nome, String email, String cpf) {
     public DadosListagemPaciente(Paciente paciente) {

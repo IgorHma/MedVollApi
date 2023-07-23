@@ -2,9 +2,10 @@ package med.vel.api.controller;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import med.vel.api.medico.DadosDetalhamentoMedico;
-import med.vel.api.medico.Medico;
-import med.vel.api.paciente.*;
+import med.vel.api.domain.paciente.DadosListagemPaciente;
+import med.vel.api.domain.paciente.Paciente;
+import med.vel.api.domain.paciente.PacienteRepository;
+import med.vel.api.domain.paciente.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
